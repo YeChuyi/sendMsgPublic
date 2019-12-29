@@ -1,0 +1,18 @@
+app:
+  #接口版本
+  name: 发送手机短信
+  version: v1.0
+  downloadPath: /download/
+  uploadPath:  /upload/
+
+server:
+  # 服务端口
+  port: 8080
+  servlet:
+    # 项目contextPath
+    context-path: /service/phone
+
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
